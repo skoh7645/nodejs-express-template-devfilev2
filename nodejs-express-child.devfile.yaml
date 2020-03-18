@@ -1,7 +1,7 @@
-name: nodejs-express-child-devfile
+name: nodejs-express-child-devfile # format taken from https://github.com/che-incubator/devworkspace-api/issues/25
 schemaVersion: 2.0.0
 parent:
-  uri: https://raw/link/to/java-openliberty-stack.devfile.yaml
+  uri: https://raw.githubusercontent.com/skoh7645/nodejs-express-stack-devfilev2/master/nodejs-express-stack.devfile.yaml
 commands:
   - exec:
       label: Say Hello
