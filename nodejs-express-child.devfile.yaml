@@ -1,0 +1,9 @@
+name: nodejs-express-child-devfile
+schemaVersion: 2.0.0
+parent:
+  uri: https://raw/link/to/java-openliberty-stack.devfile.yaml
+commands:
+  - exec:
+      label: Say Hello
+      commandLine: echo "hello"
+      component: nodejs-express-build
